@@ -1,0 +1,43 @@
+/* Path: css\style.css */
+
+/* html {
+    font-size: 62.5%;
+} */
+
+body {
+    max-width: 1200px;
+    background-color: lightgrey;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: darkgrey;
+    background-image: url(test_img1.png);
+
+    display: flex;
+}
+
+.header__text {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.header__profile-pic {
+    border-radius: 50%;
+    object-fit: cover;
+    /* center image */
+    display: block;
+    margin: 0 auto;
+
+    /* set relative size */
+    width: 50%;
+    height: 50%;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 300px;
+    max-height: 300px;
+    /* max-width: 300px;
+    max-height: 300px; */
+}
